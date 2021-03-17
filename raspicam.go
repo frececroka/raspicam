@@ -92,6 +92,7 @@ const (
 	AWBIncandescent
 	AWBFlash
 	AWBHorizon
+	AWBGreyworld
 )
 
 var awbModes = [...]string{
@@ -105,6 +106,7 @@ var awbModes = [...]string{
 	"incandescent",
 	"flash",
 	"horizon",
+	"greyworld",
 }
 
 // String returns the command line parameter for the given AWBMode.
